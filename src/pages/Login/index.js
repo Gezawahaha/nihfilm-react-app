@@ -8,7 +8,7 @@ const Login = () => {
         <div className="main-page">
             <div className="left">
                 
-                <p className="text">Nonton Film Dimana Saja dan Kapan Saja</p>
+                {/* <p className="text">Ini Baru Yang Namanya Film</p> */}
                 <img src={Logo} className="logo" alt="description"/>
                 <img src={LoginBg} className="bg-image" alt="description"/>
                 

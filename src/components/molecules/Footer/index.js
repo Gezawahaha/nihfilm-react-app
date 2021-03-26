@@ -1,16 +1,27 @@
 import React from 'react';
-import './footer.scss'
+import './footer.scss';
+import {IconLogo} from '../../../assets';
+
+// const Icon = ({}) => {
+//     return (
+//         <div></div>
+//     );
+// };
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="wrapper">
                 <div>
-                    <p className="tittle"> B Footerr Molecules</p>
+                    <img src={IconLogo} alt="icon-nihfilm"/>
+                    
                 </div>
                 <div>
-                    <p className="tittle"> A Footerr Molecules</p>
+                    <p className="tittle">Copy Right</p>
                 </div>
+            </div>
+            <div>
+                <p className="tittle">Copy Right</p>
             </div>
         </div>
     );
