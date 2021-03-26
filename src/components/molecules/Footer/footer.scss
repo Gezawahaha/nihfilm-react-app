@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 40px;
+    background-color: rgb(10, 10, 10);
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        
+        .tittle{
+            justify-content: space-between;
+            font-size: 18px;
+            color: white;
+            margin: 0px;
+        }
+    }
+}
