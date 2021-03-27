@@ -1,0 +1,14 @@
+.home-page-wrapper {
+    padding-top: 40px;
+
+    .wrapper-film {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .greating{
+        color: white;
+        font-weight: bold;
+        font-size: 44px;
+    }
+}
