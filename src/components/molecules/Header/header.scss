@@ -6,14 +6,35 @@
     .logo-app {
         width: 10vh;
         margin: 0px;
+        margin-left: 20px;
+        cursor: pointer;
         
+    }
+    .header-right {
+        display: flex;
+        .menu-header {
+            background-color: transparent;
+            color: white;
+            outline: none;
+            border: none;
+            font-size: 16px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+    .button-login {
+        background-color: transparent;
+        color: white;
+        border: rgb(10, 10, 10);
+        font-size: 16px;
+        outline: none;
+
+        cursor: pointer;
     }
 
     .menu-item{
-        font-size: 18px;
+        
         color: white;
-        text-decoration: underline;
         cursor: pointer;
-        margin: 0px;
     }
 }

@@ -1,12 +1,20 @@
 import React from 'react';
 import './button.scss';
 
-const Button = ({title, ...rest}) => {
+
+const Button = ({tittle,logo, ...rest}) => {
+    // var btnShow;
+    // if(logo != null){
+    //     btnShow = <div><p>ada logo</p></div>;
+    // }else {
+    //     btnShow = <button className="button" {...rest}>{tittle}</button>;
+    // }
     return (
         <div>
-            <button className="button" {...rest}>{title}</button>
+            {/* <img src={logo} alt="icon"/>*/}
+            <button className="button" {...rest}>{tittle}</button> 
         </div>
-    )
+    );
 }
 
 export default Button;

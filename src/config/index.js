@@ -1,3 +1,4 @@
 import Routes from './Routes';
+import Database from './Database';
 
-export {Routes};
+export {Routes, Database};
