@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+and also this project have been deployed on Heroku
+### (https://nihfilm-streamflix-geza.herokuapp.com/)
 
 ## Available Scripts
 
