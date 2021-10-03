@@ -1,0 +1,71 @@
+.detail-film-wrapper {
+    p {
+        color:grey;
+    }
+    margin: 190px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    .img-cover {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .film-tittle {
+        margin: 0px;
+        font-size: 42px;
+        font-weight: bold;
+        color: white;
+        margin-top: 20px;
+
+    }
+    .btn-wrapper{
+        background: transparent;
+        outline: none;
+        border: none;
+        display: flex;
+        margin: 10px;
+        cursor: pointer;
+        .ic-back-detail{
+            width: 35px;
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(67deg) brightness(106%) contrast(100%);
+        }
+        .title-back-white{
+            color: white;
+            font-size: 18px;
+            margin: 7px;
+        }
+    }
+    .components {
+        line-height: 2px;
+        margin: 0px;
+        font-size: 16px;
+        color: grey;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .component-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            
+            .genre {
+                display: flex;
+                flex-direction: row;
+                margin: 2px;
+                justify-content: center;
+                align-items: center;
+                p {
+                    margin: 5px;
+                    font-size: 20px;
+                }
+            }
+        }
+
+    }
+    .descripton {
+        line-height: 36px;
+        font-size: 18px;
+        color:white;
+    }
+}
